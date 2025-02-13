@@ -1,2 +1,2 @@
 # SimpleStreamer
-Basic Homepage to bookmark and embed musici  like 
+Basic Homepage to bookmark and embed music i like 
