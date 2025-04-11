@@ -2,4 +2,6 @@ h1 {
   text-align: center;
 }
 /* Lavender */
-
+body {
+  color: #8B008B; /* Dark lilac color */
+}
