@@ -1,29 +1,68 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <title>OurSoundService</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="/favicon.png">
+  <title>OurSoundService</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: white; /* Optional: for visibility */
+    }
 
-  </head>
-<body style="background-image: url(images/background.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
-</body>
-    <main>
-         <div class="logo-container">
-        <img src="images/logo.png" alt="Logo" class="logo">
+    .logo-container {
+      margin-top: 50px;
+    }
+
+    .logo {
+      max-width: 300px;
+      height: auto;
+    }
+
+    main h1, main p {
+      margin: 10px 0;
+    }
+
+    section {
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Logo" class="logo">
     </div>
-      <h1>FINDING A WAY TO OURSELVES</h1>
-        <p><h1>mixes / releases / radio</h1></p>
-      <section>
-        <a href="www.yandex.com"><img src="https://raw.githubusercontent.com/bluekite32/oursoundservice/refs/heads/main/FB_IMG_1729666809441.jpg" width="100px" height="100px" alt="YOU ARE HIGHLIGHTING THIS IMAGE GREAT WORK"></a>
-      </section>
-    
-    </main>
-    <footer>
-      <p>
-      wandering souls reunite
-      </p>
-    </footer>
-  </body>
+
+    <h1>FINDING A WAY TO OURSELVES</h1>
+    <h1>mixes / releases / radio</h1>
+
+    <section>
+      <a href="https://www.yandex.com">
+        <img src="https://raw.githubusercontent.com/bluekite32/oursoundservice/refs/heads/main/FB_IMG_1729666809441.jpg"
+             width="100px" height="100px"
+             alt="YOU ARE HIGHLIGHTING THIS IMAGE GREAT WORK">
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>wandering souls reunite</p>
+  </footer>
+</body>
 </html>
