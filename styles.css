@@ -20,7 +20,8 @@ body {
   justify-content: center; /* Centers content vertically */
   background-image: url("https://oursoundservice.org/images/background.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain; /* contains size within aspect ratio */
+  background-attachment: fixed; /* Fixes the background image in place */
   background-repeat: no-repeat;
   color: #8B008B; /* Dark lilac color */
 }
