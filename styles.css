@@ -32,7 +32,7 @@ body {
   top: 50%; /* Centers vertically */
   left: 50%; /* Centers horizontally */
   transform: translate(-50%, -50%); /* Adjusts for the element's size */
-  width: 250px; /* Adjust size as needed */
+  width: 400px; /* Adjust size as needed */
   height: auto;
   pointer-events: none; /* Ensures the GIF doesn't block interactions with the logo */
 }
