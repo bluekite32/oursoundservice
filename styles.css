@@ -1,16 +1,14 @@
 h1 {
   text-align: center;
 }
-/* Lavender */
-body {
-  color: #8B008B; /* Dark lilac color */
-}
+
+
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Prevents scrolling if content overflows */
+  overflow-y: auto; /* Enables vertical scrolling */
 }
 
 body {
@@ -23,5 +21,31 @@ body {
   background-size: contain; /* contains size within aspect ratio */
   background-attachment: fixed; /* Fixes the background image in place */
   background-repeat: no-repeat;
-  color: #8B008B; /* Dark lilac color */
+  color: #FDFD96; /* Soft yellow color */
 }
+
+.logo-container {
+  position: relative; /* Allows positioning of the GIF over the logo */
+}
+
+.gif-overlay {
+  position: absolute;
+  top: 50%; /* Centers vertically */
+  left: 50%; /* Centers horizontally */
+  transform: translate(-50%, -50%); /* Adjusts for the element's size */
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  pointer-events: none; /* Ensures the GIF doesn't block interactions with the logo */
+}
+
+  main h1, main p {
+    margin: 10px 0; color: blueviolet
+  }
+  section {
+    margin-top: 28px;
+  }
+  footer {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 14px;
+  }
