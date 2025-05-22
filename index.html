@@ -1,37 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>OurSoundService</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="/favicon.png">
-</head>
-<body>
-  <main>
-    <div class="logo-container">
-      <img src="images/logo.png" alt="Logo" class="logo">
-      <img src="images/saturn_white.gif" alt="GIF Overlay" class="gif-overlay">  
-    </div>
-<h3 class="skele">
-NVMNVM
-
-</h3>
-    <h1>FINDING A WAY TO OURSELVES</h1>
-    <h1>mixes / releases / radio</h1>
-    <h1>youarelistening.to</h1>
-    <section>
-      <a href="https://www.yandex.com">
-        <img src="https://oursoundservice.org/images/meme.jpg" 
-        width="150px" 
-        height="100px" 
-        style="display: block; margin: 0 auto;">  
-      </a>
-    </section>
-  </main>
-
-  <footer>
-    <p>wandering souls reunite forever</p>
-  </footer>
-</body>
-<style> /* cheeky inline CSS for index.html, this can be in html but should be in css longterm*/
-</style>
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <title>OurSoundService</title>         
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="styles.css"> 
+        <link rel="icon" type="image/icon" href="/favicon.ico"> 
+    </head>     
+    <body>
+        <div id="media-player-bar">
+            <div class="media-player-inner">
+                <button id="play-pause" aria-label="Play/Pause">▶️</button>
+                <button id="volume-btn" aria-label="Mute/Unmute">🔊</button>
+                <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="1" />
+                <span id="audio-title">Live Stream: OurSoundService Radio</span>
+                <div id="audio-activity">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <audio id="audio" src="https://your-livestream-url/stream.mp3" preload="none"></audio>
+            </div>
+        </div>
+        <div id="main-box">
+            <main class="main-container">
+                <div class="logo-container">...</div>
+                <h1 class="title">FINDING A WAY TO OURSELVES</h1>
+                
+                <section class="skele">
+                    <div id="ascii-art"></div>
+                    <script src="ascii.js"></script>
+                </section>
+                <div>
+                    <p>wandering souls</p>
+                    <h1 class="menu">mixes / releases / radio</h1>
+                </div>
+            </main>
+        </div>
+        <div id="breaking-news-bar">
+            <div class="breaking-news-ticker">
+                <span>BREAKING: Your latest news goes here! &nbsp;•&nbsp; More news... &nbsp;•&nbsp; Even more updates...</span>
+            </div>
+        </div>
+        <script src="media-player.js"></script>
+    </body>     
 </html>
